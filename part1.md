@@ -70,3 +70,5 @@ If you prefer to use software, you can try http://asciiflow.com/.
     * patron_id(integer)(foreign key)
 
 Ask an instructor to look over your answers before moving on to Part 2 to make sure you're on the right track.*
+
+WORK CHECKED BY Najwa Azer @ 3 PM

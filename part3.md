@@ -31,7 +31,7 @@ each database will require it's own class
     * id(integer)
     * name(string)
     * clinic_id(integer)(foreign key)
-  * Work
+  * Appointment
     * id(integer)
     * name(string)
     * patient_id(integer)(foreign key)
@@ -43,11 +43,11 @@ each database will require it's own class
     * id(integer)
     * name(string)
 
-Dentist (one) - (many) work
+Dentist (one) - (many) appointment
 Clinic (one) - (many) dentists
 Clinic (one) - (many) patients
-Clinic (one) - (many) work
-Patient (one) - (many) work
+Clinic (one) - (many) appointment
+Patient (one) - (many) appointment
 
 each database will require it's own class
 
@@ -72,3 +72,5 @@ User (one) - (many) Events // one user can hold many events
 Event (one) - (many) Tickets
 
 Now would be a good time to discuss your solutions with an instructor.
+
+WORK CHECKED BY Najwa Azer @ 3 PM
